@@ -31,8 +31,8 @@ PATH_TO_KEY = "/home/pi/key/b6d2a152084610caf7945cd67e0cf8b7cc4080fa0cdf88bac1c7
 PATH_TO_ROOT = "/home/pi/CA/AmazonRootCA1.pem"
 TOPIC = "test/testing" 
 BUCKET_NAME = "semstestbucket"
-AWS_ACCESS_KEY = 'AKIA6GY63CLQL4P7VTP4'
-AWS_SECRET_KEY = '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'
+AWS_ACCESS_KEY = ''
+AWS_SECRET_KEY = ''
 AWS_REGION= 'ap-northeast-2'
 DYNAMODB_TABLE = 'TEROS_TB'
 
