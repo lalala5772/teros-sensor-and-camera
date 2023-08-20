@@ -1,0 +1,38 @@
+sudo mysql -u root -p mysql
+
+1) 데이터베이스 생성(MariaDB 접속 후에 수행해야 한다.)
+ 
+create database testDB(DB 이름);
+ 
+2) 데이터베이스 삭제
+ 
+drop database testDB(DB 이름);
+ 
+3) 데이터베이스 확인
+ 
+show databases;
+ 
+4) mysql 사용 방법
+ 
+use mysql 
+
+
+
+
+ use dataDB
+
+
+
+CREATE TABLE sensor (
+    ->   `id` INT NOT NULL AUTO_INCREMENT,
+    ->   `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    ->   `soilMoist` FLOAT NOT NULL,
+    ->   `temperature` FLOAT NOT NULL,
+    ->   `state` VARCHAR(11),
+    ->   `imageUrl` VARCHAR(50) NOT NULL,
+    ->   PRIMARY KEY (`id`)
+    -> );
+
+
+
+
